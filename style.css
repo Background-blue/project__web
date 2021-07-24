@@ -68,7 +68,7 @@ header li a {
 
 /* article section start */
 
-.section {
+.usuarios-s {
   background: #309194;
   text-align: center;
   padding: 15px;
@@ -80,6 +80,11 @@ header li a {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
 }
 
 article {
