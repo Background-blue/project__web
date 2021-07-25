@@ -24,6 +24,11 @@ h1 {
   
 }
 
+.logo_b {
+  text-decoration: none;
+  color: #fff;
+}
+
 header ul {
   padding: 0;
   margin: 0;
@@ -68,7 +73,7 @@ header li a {
 
 /* article section start */
 
-.section {
+.colaboradores-s {
   background: #309194;
   text-align: center;
   padding: 15px;
@@ -80,6 +85,12 @@ header li a {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+}
+
+.user {
+  text-align: center;
+  width: 100%;
+ 
 }
 
 article {
@@ -125,7 +136,7 @@ footer p {
 /* footer section end */
 
 /* responsive start */
-@media screen and (max-width:1200px){
+@media screen and (max-width:940px){
   article {
     width: ;
   }
